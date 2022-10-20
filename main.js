@@ -42,7 +42,7 @@ function addStar() {
 }
 Array(1000).fill().forEach(addStar)
 
-//avatar
+//earth
 const earthTexture = new THREE.TextureLoader().load('./earth.jpg')
 const earth = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
