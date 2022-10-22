@@ -80,7 +80,7 @@ function moveCamera(){
   const t = document.body.getBoundingClientRect().top;
   camera.position.z = t * -0.01;
   camera.position.x = t * -0.002;
-  camera.rotation.y = t * -0.000;
+  camera.rotation.y = t * -0.0006;
 }
 document.body.onscroll = moveCamera;
 moveCamera();
