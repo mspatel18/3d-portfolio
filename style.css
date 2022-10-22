@@ -16,7 +16,6 @@ html {
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
   --spacing: 300px;
-
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -28,11 +27,9 @@ main {
   color: white;
   z-index: 99;
   position: absolute;
-  /* width: 100%; */
   margin: 0px auto;
   padding: 120px 0px;
   cursor: none;
-
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
@@ -43,9 +40,7 @@ h3,
 h6,
 p,
 blockquote {
-  /* font-family: elevon, sans-serif; */
   font-family: 'Press Start 2P', cursive;
-  /* font-weight: medium; */
   font-style: normal;
 }
 
