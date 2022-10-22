@@ -81,4 +81,8 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 ```js
 const controls = new OrbitControls( camera, renderer.domElement );
 ```
+Inside animate function:
+```js
+controls.update();
+```
 So there you have your 3d scene ready now make changes as you want by taking reference of [three.js documentaion](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene).
