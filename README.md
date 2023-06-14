@@ -3,7 +3,7 @@
 A brief description of starting your own three.js project.
 
 For detailed version read this [three.js documentaion](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
-# Setup
+# How to build a 3d scene using three.js
  Start a vite project by
 ```bash
 npm create vite@latest
